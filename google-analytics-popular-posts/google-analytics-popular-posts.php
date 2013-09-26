@@ -446,7 +446,7 @@ function GAPP_shortcode() {
 add_shortcode('GAPP_VIEW', 'GAPP_shortcode');
 
 //************************************************************************************
-// Last 7 Days Post
+// Posts for Last Seven Days
 //************************************************************************************
 function last_Sevendays( $atts ){
   	$GAPP_usr = get_option('GoogleAnalyticsPopularPosts_username');
@@ -524,15 +524,15 @@ function last_Sevendays( $atts ){
 
 }
 
-//***********************************************
-// Implementation of shortcode for Last 7 days
-//***********************************************
+/***********************************************
+ shortcode for Last Seven days
+***********************************************/
 add_shortcode( 'Last_Seven_Days', 'last_Sevendays' );
 
 
 
 //************************************************************************************
-// Last 30 Days Post
+// Posts for Thirty Days
 //************************************************************************************
 function last_Thirty( $atts ){
   	$GAPP_usr = get_option('GoogleAnalyticsPopularPosts_username');
@@ -611,7 +611,7 @@ function last_Thirty( $atts ){
 }
 
 //***********************************************
-// Implementation of shortcode for Last 30days
+// shortcode for Last Thirty days
 //***********************************************
 add_shortcode( 'Last_Thirty_Days', 'last_Thirty' );
 
@@ -619,7 +619,7 @@ add_shortcode( 'Last_Thirty_Days', 'last_Thirty' );
 
 
 //************************************************************************************
-// Last One Year Post
+// Posts for One Year Post
 //************************************************************************************
 function last_Oneyear( $atts ){
   	$GAPP_usr = get_option('GoogleAnalyticsPopularPosts_username');
@@ -698,7 +698,7 @@ function last_Oneyear( $atts ){
 }
 
 //***********************************************
-// Implementation of shortcode for Last One Year
+//shortcode for Last One Year
 //***********************************************
 add_shortcode( 'Last_One_Year', 'last_Oneyear' );
 
