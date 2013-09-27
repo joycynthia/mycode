@@ -448,7 +448,7 @@ add_shortcode('GAPP_VIEW', 'GAPP_shortcode');
 //************************************************************************************
 // Posts for Last Seven Days
 //************************************************************************************
-function last_Sevendays( $atts ){
+function last_SevenDays( $atts ){
   	$GAPP_usr = get_option('GoogleAnalyticsPopularPosts_username');
 	$GAPP_pwd = get_option('GoogleAnalyticsPopularPosts_password');
 	$GAPP_pID = get_option('GoogleAnalyticsPopularPosts_profileID');
@@ -527,7 +527,7 @@ function last_Sevendays( $atts ){
 /***********************************************
  shortcode for Last Seven days
 ***********************************************/
-add_shortcode( 'Last_Seven_Days', 'last_Sevendays' );
+add_shortcode( 'Past_Seven_Days', 'last_SevenDays' );
 
 
 
@@ -613,7 +613,7 @@ function last_Thirty( $atts ){
 //***********************************************
 // shortcode for Last Thirty days
 //***********************************************
-add_shortcode( 'Last_Thirty_Days', 'last_Thirty' );
+add_shortcode( 'Past_Thirty_Days', 'last_Thirty' );
 
 
 
@@ -621,7 +621,7 @@ add_shortcode( 'Last_Thirty_Days', 'last_Thirty' );
 //************************************************************************************
 // Posts for One Year Post
 //************************************************************************************
-function last_Oneyear( $atts ){
+function last_OneYear( $atts ){
   	$GAPP_usr = get_option('GoogleAnalyticsPopularPosts_username');
 	$GAPP_pwd = get_option('GoogleAnalyticsPopularPosts_password');
 	$GAPP_pID = get_option('GoogleAnalyticsPopularPosts_profileID');
@@ -700,7 +700,7 @@ function last_Oneyear( $atts ){
 //***********************************************
 //shortcode for Last One Year
 //***********************************************
-add_shortcode( 'Last_One_Year', 'last_Oneyear' );
+add_shortcode( 'Past_One_Year', 'last_OneYear' );
 
 
 
