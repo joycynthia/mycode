@@ -40,9 +40,9 @@ Google Analytics Popular Posts has the following features:<br>
 - Can display the posted date and excerpt.<br>
 
 = Most Popular Post: (English)
-- Create Page Last Seven Days and use short code [Last_Seven_Days]
-- Create Page Last Thirty Days and use short code [Last_Thirty_Days]
-- Create Page Last One Year and use short code [Last_One_Year]
+- Create Page Past Seven Days and use short code [Past_Seven_Days]
+- Create Page Past Thirty Days and use short code [Past_Thirty_Days]
+- Create Page Past One Year and use short code [Past_One_Year]
 
 = View Most Popular Post in Home Page: (English)
 - Can view the Last Seven Days Post
